@@ -79,7 +79,7 @@ const AdminLogin = () => {
           <div className="text-center text-white relative z-10 w-full max-w-md">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 sm:mb-10">
               <div className="text-4xl sm:text-5xl bg-white/20 p-3 sm:p-4 rounded-2xl backdrop-blur-md">🪑</div>
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold drop-shadow-lg mt-4 sm:mt-0">LuxuryFurnish</h1>
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold drop-shadow-lg mt-4 sm:mt-0">New Vishwakarma Furniture</h1>
             </div>
             <div className="mb-6 sm:mb-10">
               <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Transform Your Space</h2>

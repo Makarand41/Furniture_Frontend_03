@@ -9,6 +9,11 @@ import ScrollToTopButton from '../components/ScrollToTopButton'
 import FurnitureGrid from '../components/FurnitureGrid'
 import ProductsWithSidebar from '../components/ProductsWithSidebar'
 import Testimonials from '../components/Testimonials '
+import WhatsAppButton from '../components/WhatsAppButton'
+// import HomeProducts from '../components/HomeProducts'
+import HomeCategorySections from '../components/HomeCategorySections'
+import PromoBanner from '../components/PromoBanner '
+
 
 
 
@@ -21,12 +26,19 @@ const Home = () => {
      
      <HomeCarousel/>
      <FeaturedCollections/>
+     {/* <HomeProducts/> */}
+
+     <HomeCategorySections/>
      <NoticeBar/>
      <PromoSplit/>
+
+     <PromoBanner/>
+     
      <Testimonials/> 
    
      <Footer/>
      <ScrollToTopButton/>
+     <WhatsAppButton/>
     </>
   )
 }

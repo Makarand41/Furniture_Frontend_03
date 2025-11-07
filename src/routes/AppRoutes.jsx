@@ -16,7 +16,13 @@ import ViewFurniture from "../components/ViewFurniture";
 import EditFurniture from "../pages/EditFurniture";
 import DeleteFurniture from "../components/DeleteFurniture";
 import AdminViewProduct from "../pages/AdminViewProduct";
-import Stock from "../pages/Stock";
+
+import AddOrder from "../pages/AddOrder";
+import OrdersList from "../pages/OrdersList";
+import EditOrder from "../pages/EditOrder";
+
+
+
 const AppRoutes = () => (
   <Router>
     <Routes>
@@ -26,7 +32,7 @@ const AppRoutes = () => (
     <Route path="/furniture/view/:id" element={<ViewFurniture />} />  {/* common for both admin and user*/}
     <Route path="/furniture/About" element={<About />} />
     <Route path="/furniture/Contact" element={<Contact/>} />
-<Route path="/furniture/stock" element={<Stock />} />
+
     {/* Admin */}
       
     <Route path="/admin/register" element={<AdminRegister />} />
@@ -37,6 +43,13 @@ const AppRoutes = () => (
     <Route path="/furniture/edit/:id" element={<EditFurniture />} />
     <Route path="/furniture/delete/:id" element={<DeleteFurniture />} />
     <Route path="/admin/view/:id" element={<AdminViewProduct />} />    {/*  admin to view furniture*/}
+
+
+    <Route path="/admin/orders" element={<OrdersList />} />
+<Route path="/admin/orders/add" element={<AddOrder />} />
+<Route path="/admin/orders/edit/:id" element={<EditOrder />} />
+
+    
    
 
 

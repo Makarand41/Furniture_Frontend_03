@@ -19,7 +19,7 @@ const Header = () => {
 
       <div className="flex items-center">
   <img
-    src="/Logo3.png"
+    src="/Logo4.jpg"
     alt="Logo"
     className="h-20 w-20 object-contain md:h-20 md:w-24 lg:h-20 lg:w-48"
   />
